@@ -29,6 +29,8 @@ Create a HTML file of forms.
 
 Publish the website in the given URL.
 
+
+
 ## PROGRAM :
 ```
 Developed By: Gopika R
@@ -101,6 +103,8 @@ Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/
 </body>
 </html>
 ```
+
+
 ```
 views.py
 
@@ -129,6 +133,8 @@ def rectarea(request):
     return render(request,'myapp/math.html',context)
 ```
 
+
+
 ```
 urls.py
 
@@ -142,13 +148,21 @@ urlpatterns = [
 ]
 
 ```
+
+
+
 ## OUTPUT:
 
 ![out](https://user-images.githubusercontent.com/122762773/235484728-9e019607-9af3-4c19-b1d8-921401f42f8e.png)
 
+
+
 ### Home Page:
 
 ![home](https://user-images.githubusercontent.com/122762773/235484778-206fc264-1d0c-46c1-813d-3be58d34169f.png)
+
+
+
 
 
 ## Result:
