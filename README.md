@@ -100,8 +100,8 @@ Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/
 </div>
 </body>
 </html>
-
-
+```
+```
 views.py
 
 from django.shortcuts import render
@@ -127,7 +127,9 @@ def rectarea(request):
         context['b'] = b
         print('Area=',area)
     return render(request,'myapp/math.html',context)
+```
 
+```
 urls.py
 
 from django.contrib import admin
